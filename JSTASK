@@ -15,11 +15,11 @@ const NFTs=[]
 // NFT object using the parameters passed to it for its metadata, 
 // and store it in the variable above.
 
-function mintNFT (_name,_eyeColor,_shirtType,_bling ) {
+function mintNFT (_name,_eyeColor,_favouritesubject,_bling ) {
  const NFT ={
     "name":_name,
     "eyeColor":_eyeColor,
-    "shirtType":_shirtType,
+    "favouritesubject":_favouritesubject,
     "bling":_bling
  }
  NFTs.push(NFT);
@@ -33,7 +33,7 @@ function listNFTs () {
         console.log("\nID: \t\t\t"+ (i+1));
         console.log("Name: \t\t\t " + NFTs[i].name);
         console.log("EyeColor: \t\t" + NFTs[i].eyeColor);
-        console.log("Shirt Type: \t" + NFTs[i].shirtType);
+        console.log("FavouriteSubject: \t" + NFTs[i].favouritesubject);
         console.log("Bling: \t\t " + NFTs[i].bling);
     }
 
@@ -46,9 +46,9 @@ function getTotalSupply() {
 }
 
 // call your functions below this line
-mintNFT("Kaushal", "Blue" , "Hoodie", "Gold chain");
-mintNFT("Ravinder", "Green" , "shirt", "Silver chain");
-mintNFT("Karan", "Red" , "Sweatshirt", "Bronze chain");
-mintNFT("Naman", "Yellow" , "Carbonit", "Plastic chain");
+mintNFT("Kaushal", "Blue" , "Computer", "Gold chain");
+mintNFT("Ravinder", "Green" , "Maths", "Silver chain");
+mintNFT("Karan", "Red" , "Physics", "Bronze chain");
+mintNFT("Naman", "Yellow" , "Chemistry", "Plastic chain");
 listNFTs();
 getTotalSupply();
