@@ -46,9 +46,9 @@ function getTotalSupply() {
 }
 
 // call your functions below this line
-mintNFT("Bob", "Blue" , "Hoodie", "Gold chain");
-mintNFT("Sue", "Blue" , "Hoodie", "Gold chain");
-mintNFT("Tim", "Blue" , "Hoodie", "Gold chain");
-mintNFT("Jogn", "Blue" , "Hoodie", "Gold chain");
+mintNFT("Kaushal", "Blue" , "Hoodie", "Gold chain");
+mintNFT("Ravinder", "Green" , "shirt", "Silver chain");
+mintNFT("Karan", "Red" , "Sweatshirt", "Bronze chain");
+mintNFT("Naman", "Yellow" , "Carbonit", "Plastic chain");
 listNFTs();
 getTotalSupply();
